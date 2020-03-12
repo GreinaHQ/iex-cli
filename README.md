@@ -2,6 +2,12 @@
 
 IEX Cloud command line interface
 
+## Installation
+
+```sh
+$ npm install -g iex
+```
+
 ## Usage
 
 ```sh
