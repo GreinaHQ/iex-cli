@@ -1,6 +1,6 @@
 {
   "name": "iex-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Ronny Haase <ronnyhaase@fastmail.com>",
   "license": "MIT",
   "description": "IEX Cloud command line interface",
