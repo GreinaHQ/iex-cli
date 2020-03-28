@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 const meow = require('meow')
-const createClient = require('iex').default
+const createClient = require('iex')
 
 const exit = (code = 0, message = '') => {
   if (message) console.log(message)
@@ -39,7 +39,7 @@ if (!process.env.IEX_TOKEN) exit(1, 'Your IEX token must be set as environment v
 if (!command) exit(1, 'Missing command')
 if (!symbol) exit(1, 'Missing symbol')
 
-const client = createClient(process.env.IEX_TOKEN)
+const client = createClient({ token: process.env.IEX_TOKEN })
 
 if (!client[command]) exit(1, 'Unknown command')
 
