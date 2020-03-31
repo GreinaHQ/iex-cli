@@ -2,6 +2,8 @@
 
 IEX Cloud command line interface
 
+> Also check out [IEX.js](https://github.com/GreinaHQ/IEX.js) a universal JavaScript / TypeScript client library, powering this little tool!
+
 ## Installation
 
 ```sh
