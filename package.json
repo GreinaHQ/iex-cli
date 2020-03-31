@@ -31,7 +31,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "iex": "^0.2.0",
+    "iex": "^0.3.1",
     "meow": "^6.1.0"
   }
 }
