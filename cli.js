@@ -9,12 +9,14 @@ const exit = (code = 0, message = '') => {
 }
 
 const cli = meow(`
-  IEX Cloud command line interface
+  Data provided by IEX Cloud | https://iexcloud.io
 
   Usage
     $ IEX_TOKEN=pk_myiextoken iex <command> <symbol> [args]
 
     Yes, your IEX token is expected to be an environment variable ;)
+    If you pass a sandbox token you'll receive sandbox data
+
     All arguments are passed as query parameter to IEX
 
   Example:
